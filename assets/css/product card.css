@@ -10,11 +10,12 @@ body {
 }
 
 h1,
-h2,
+p,
 button {
   color: #612406;
 }
-p {
+p,
+h1 {
   margin: 0;
 }
 img {
@@ -24,6 +25,7 @@ img {
 }
 main {
   margin: 0;
+  width: 100%;
 }
 section {
   background-color: #fbf7e3;
@@ -33,18 +35,20 @@ section {
   height: 250px;
 }
 .contaneir {
-  display: flex;
-  margin-inline: auto;
   max-width: 612px;
   flex-direction: row;
   align-items: flex-start;
   padding: 10px;
+  margin-inline: auto;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
 }
 
 div {
   justify-content: center;
 }
-h2 {
+.contaneir p {
   font-weight: lighter;
   display: flex;
 }
