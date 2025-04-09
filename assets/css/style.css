@@ -9,7 +9,8 @@ body {
   max-width: 767px;
 }
 
-.title {
+.title,
+article p {
   color: #701d01;
   font-size: xx-large;
   font-weight: bolder;
@@ -61,6 +62,7 @@ section {
   gap: 2.5rem;
   width: 18rem;
   height: 6.5rem;
+  margin: 0;
 }
 .button {
   background-color: #f3df85;
@@ -75,4 +77,24 @@ main section img {
   height: auto;
   border-top-left-radius: 3.5rem;
   border-top-right-radius: 3.5rem;
+}
+section div p {
+  color: #701d01;
+  font-weight: bolder;
+  font-size: larger;
+  margin-left: 10px;
+}
+section div h3 {
+  color: #701d01;
+  font-weight: lighter;
+  margin: 0;
+}
+.cont {
+  background-color: #fbf7e3;
+  max-width: 100%;
+  margin: 10px;
+  pagging: 10px;
+}
+article div img {
+  max-width: 100%;
 }
