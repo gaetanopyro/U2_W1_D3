@@ -19,6 +19,7 @@ article p {
   font-size: xx-large;
   font-weight: bolder;
   padding-left: 10px;
+  margin: 25px;
 }
 header {
   max-width: 100%;
@@ -54,6 +55,14 @@ main {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin: 25px;
+}
+.sectionH3,
+.sectionP,
+.sizeP {
+  margin: 0;
+  font-size: small;
+  color: #701d01;
 }
 section {
   background-color: #fbf7e3;
@@ -61,15 +70,21 @@ section {
   margin: 0.5rem;
   text-align: center;
 }
+.prova {
+  justify-content: center;
+  display: flex;
+  gap: 50px;
+}
 .card {
   display: flex;
-  justify-content: center;
   align-items: flex-start;
   gap: 2.5rem;
   width: 18rem;
   height: 4.5rem;
 }
+
 main section div img {
+  width: 18rem;
   border-top-left-radius: 20%;
   border-top-right-radius: 20%;
 }
@@ -77,11 +92,12 @@ main section div img {
   border: none;
   border-radius: 25px;
   height: 30px;
-  width: 250px;
+  width: 200px;
   margin-bottom: 10px;
   background-color: #ffdf7f;
   color: #701d01;
-  font-weight: bold;
+  font-weight: bolder;
+  margin-top: 35px;
 }
 article div {
   padding: 20px;
